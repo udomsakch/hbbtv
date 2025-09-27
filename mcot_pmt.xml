@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tsduck>
+  <PMT version="0" current="true" service_id="0x001E" PCR_PID="0x0515">
+    <multiplex_buffer_utilization_descriptor LTW_offset_lower_bound="180" LTW_offset_upper_bound="360"/>
+    <component elementary_PID="0x0515" stream_type="0x1B">
+      <stream_identifier_descriptor component_tag="0x01"/>
+      <data_stream_alignment_descriptor alignment_type="0x02"/>
+      <AVC_video_descriptor profile_idc="0x00" constraint_set0="false" constraint_set1="false" constraint_set2="false" constraint_set3="false" constraint_set4="false" constraint_set5="false" AVC_compatible_flags="0x00" level_idc="0x28" AVC_still_present="false" AVC_24_hour_picture="false" frame_packing_SEI_not_present="true"/>
+    </component>
+    <component elementary_PID="0x0516" stream_type="0x11">
+      <stream_identifier_descriptor component_tag="0x02"/>
+      <ISO_639_language_descriptor>
+        <language code="tha" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+    </component>
+    <component elementary_PID="0x0517" stream_type="0x11">
+      <stream_identifier_descriptor component_tag="0x03"/>
+      <ISO_639_language_descriptor>
+        <language code="eng" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+    </component>
+    <component elementary_PID="0x0518" stream_type="0x11">
+      <stream_identifier_descriptor component_tag="0x04"/>
+      <ISO_639_language_descriptor>
+        <language code="nar" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+    </component>
+    <component elementary_PID="0x0519" stream_type="0x06">
+      <stream_identifier_descriptor component_tag="0x05"/>
+      <maximum_bitrate_descriptor maximum_bitrate="100,000"/>
+      <subtitling_descriptor>
+        <subtitling language_code="tha" subtitling_type="0x14" composition_page_id="0x0002" ancillary_page_id="0x0002"/>
+      </subtitling_descriptor>
+    </component>
+<component elementary_PID="0x1FF0" stream_type="0x05">
+  <stream_identifier_descriptor component_tag="0xAA"/>
+  <application_signalling_descriptor/>
+</component>
+
+  </PMT>
+</tsduck>
