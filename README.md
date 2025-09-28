@@ -9,3 +9,4 @@ ________________________________________
 •	mcot/mux.ts → ไฟล์ TS ของ MUX MCOT (ประเทศไทย) ที่จะนำมาทดลองใส่ AIT
 •	mcot_ait.xml → ไฟล์ XML ของ AIT ที่เราสร้างเอง ชี้ไปที่ HbbTV app ของ MCOT (http://radiostl3.mcot.net/hbbtv/default.html)
 •	mcot_pmt.xml → ไฟล์ XML ของ PMT ของ 9MCOT HD (ดึงจาก TS และแก้ไขเพิ่ม component AIT)
+Direct download full project files at : https://1drv.ms/u/c/9bb0f6730fadf857/Ee3LCG7IdpRAkkFT07jaD8gBxRrKfJm9A8TOzz6kLgHChg?e=yW6hqu
